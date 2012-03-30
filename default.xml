@@ -12,11 +12,11 @@
            fetch="git://github.com/"
            revision="master" />
            
-  <remote  name="blackice"
+  <remote  name="teamicemods"
            fetch="git@github.com:travp624/"
            revision="master" />
            
-  <remote  name="kang"
+  <remote  name="AOKP"
            fetch="git://github.com/AOKP/"
            revision="master" />
            
@@ -63,10 +63,12 @@
   <project path="device/samsung/tuna" name="travp624/device_samsung_tuna" remote="gh" revision="master" />
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
+  <project path="external/android-clat" name="platform/external/android-clat" revision="master" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
   <project path="external/apache-http" name="platform/external/apache-http" />
+  <project path="external/apache-qp" name="platform/external/apache-qp" />
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
@@ -87,6 +89,7 @@
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/e2fsprogs" name="AOKP/external_e2fsprogs" remote="gh" revision="master" />
   <project path="external/easymock" name="platform/external/easymock" />
+  <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
   <project path="external/elfutils" name="AOKP/external_elfutils" remote="gh" revision="ics" />
   <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/emma" name="platform/external/emma" />
@@ -126,6 +129,10 @@
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
   <project path="external/libpng" name="AOKP/external_libpng" remote="gh" revision="master" />
+  <project path="external/libselinux" name="platform/external/libselinux" />
+  <project path="external/libsepol" name="platform/external/libsepol" />
+  <project path="external/libusb" name="platform/external/libusb" />
+  <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
@@ -154,7 +161,9 @@
   <project path="external/qemu" name="AOKP/external_qemu" remote="gh" revision="ics-mr1-release" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
   <project path="external/quake" name="platform/external/quake" />
+  <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
+  <project path="external/sepolicy" name="platform/external/sepolicy" />
   <project path="external/skia" name="AOKP/external_skia" remote="gh" revision="master" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
@@ -181,12 +190,13 @@
   <project path="external/yaffs2" name="AOKP/external_yaffs2" remote="gh" revision="master" />
   <project path="external/zlib" name="AOKP/external_zlib" remote="gh" revision="master" />
   <project path="frameworks/base" name="travp624/frameworks_base" remote="gh" revision="master" />
-  <project path="frameworks/opt" name="travp624/frameworks_opt" remote="gh" revision="master" />
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
+  <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" remote="gh" revision="ics" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" remote="gh" revision="ics" />
   <project path="frameworks/ex" name="travp624/frameworks_ex" remote="gh" revision="master" />
   <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" />
+  <project path="frameworks/opt" name="travp624/frameworks_opt" remote="gh" revision="master" />
+  <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="hardware/cm" name="AOKP/hardware_cm" remote="gh" revision="ics" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
@@ -200,6 +210,8 @@
   <project path="hardware/ril" name="AOKP/android_hardware_ril" remote="gh" revision="ics" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
+  <project path="hardware/ti/wlan" name="AOKP/android_hardware_ti_wlan" remote="gh" revision="ics" />
+  <project path="hardware/ti/wpan" name="AOKP/android_hardware_ti_wpan" remote="gh" revision="ics" />
   <project path="libcore" name="platform/libcore" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -231,6 +243,7 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings" name="travp624/packages_apps_Settings" remote="gh" revision="master" />
+  <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
@@ -273,7 +286,6 @@
   <project path="system/vold" name="AOKP/system_vold" remote="gh" revision="master" />
   
   <project path="vendor/samsung" name="travp624/vendor_samsung" remote="gh" revision="master" />
-  <project path="vendor/imgtec" name="travp624/vendor_imgtec" remote="gh" revision="master" />
   <project path="vendor/BlackICE" name="travp624/vendor_BlackICE" remote="gh" revision="master" />
   <project path="vendor/moto" name="travp624/vendor_moto" remote="gh" revision="master" />
   <project path="vendor/hp/tenderloin" name="travp624/vendor_hp_tenderloin" remote="gh" revision="master" />
