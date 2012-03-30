@@ -9,11 +9,11 @@
            fetch="https://android.googlesource.com/" />
            
   <remote  name="gh"
-           fetch="git://github.com/"
+           fetch="http://github.com/"
            revision="master" />
            
   <remote  name="travp624"
-           fetch="git@github.com:travp624/"
+           fetch="https://travp624@github.com:travp624/"
            revision="master" />
            
   <remote  name="kang"
@@ -21,7 +21,7 @@
            revision="master" />
            
   <remote  name="cm"
-           fetch="git://github.com/CyanogenMod/"
+           fetch="http://github.com/CyanogenMod/"
            revision="ics" />
 
   <default revision="master"
