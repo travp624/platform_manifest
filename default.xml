@@ -17,7 +17,7 @@
            revision="master" />
            
   <remote  name="kang"
-           fetch="git@github.com/AOKP/"
+           fetch="git://github.com/AOKP/"
            revision="master" />
            
   <remote  name="cm"
