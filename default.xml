@@ -261,6 +261,10 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="prebuilt" name="platform/prebuilt" />
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" />
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="travp624/system_bluetooth" remote="gh" revision="master" />
   <project path="system/core" name="AOKP/system_core" remote="gh" revision="ics" />
@@ -281,5 +285,7 @@
   <project path="packages/apps/Superuser" name="travp624/packages_apps_Superuser" remote="gh" revision="master" />
   <project path="packages/apps/BlackICEControl" name="travp624/packages_apps_BlackICEControl" remote="gh" revision="master" />
   <project path="packages/apps/Trebuchet" name="travp624/packages_apps_Trebuchet" remote="gh" revision="ics" />
+  <project path="packages/apps/AppWidgetPicker" name="travp624/packages_apps_AppWidgetPicker" remote="gh" revision="master" />
+  <project path="packages/apps/GanOptimizer" name="CyanogenMod/android_packages_apps_GanOptimizer" remote="gh" revision="gb-release-7.2" />
 
 </manifest>
