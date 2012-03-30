@@ -214,7 +214,7 @@
   <project path="packages/apps/DSPManager" name="travp624/packages_apps_DSPManager" remote="gh" revision="master" />
   <project path="packages/apps/Email" name="travp624/packages_apps_Email" remote="gh" revision="master" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
-  <project path="packages/apps/FileManager" name="travp624/packages_apps_DSPManager" remote="gh" revision="master" />
+  <project path="packages/apps/FileManager" name="travp624/packages_apps_FileManager" remote="gh" revision="master" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
