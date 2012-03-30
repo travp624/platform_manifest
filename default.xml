@@ -12,12 +12,12 @@
            fetch="git://github.com/"
            revision="master" />
            
-  <remote  name="kangorade"
+  <remote  name="blackice"
            fetch="git@github.com:travp624/"
            revision="master" />
            
   <remote  name="kang"
-           fetch="git@github.com:AOKP/"
+           fetch="git@github.com/AOKP/"
            revision="master" />
            
   <remote  name="cm"
