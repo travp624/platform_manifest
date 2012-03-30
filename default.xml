@@ -3,9 +3,17 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
+
+  <remote  name="404"
+           revisions="refs/tags/android-4.0.4_r1.1"
+           fetch="https://android.googlesource.com/" />
            
   <remote  name="gh"
            fetch="git://github.com/"
+           revision="master" />
+           
+  <remote  name="kangorade"
+           fetch="git@github.com:travp624/"
            revision="master" />
            
   <remote  name="kang"
@@ -16,21 +24,21 @@
            fetch="git://github.com/CyanogenMod/"
            revision="ics" />
 
-  <default revision="refs/tags/android-4.0.3_r1"
+  <default revision="master"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="travp624/android_build" revision="ics" remote="gh">
+  <project path="build" name="AOKP/android_build" revision="ics" remote="gh">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="travp624/bionic" remote="gh" revision="master" />
+  <project path="bionic" name="AOKP/bionic" remote="gh" revision="ics" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
-  <project path="development" name="travp624/platform_development" remote="gh" revision="ics-mr1-release" />
+  <project path="development" name="AOKP/platform_development" remote="gh" revision="ics-mr1-release" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
@@ -39,19 +47,19 @@
   <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" remote="gh" revision="gingerbread" />
   <project path="device/htc/msm7x30-common" name="AOKP/android_device_htc_msm7x30-common" remote="gh" revision="ics" />
   <project path="device/hp/tenderloin" name="AOKP/android_device_hp_tenderloin" remote="gh" revision="ics" />
-  <project path="device/moto/common" name="device/moto/common" />
-  <project path="device/moto/stingray" name="AOKP/device_moto_stingray" remote="gh" revision="ics" />
-  <project path="device/moto/wingray" name="AOKP/device_moto_wingray" remote="gh" revision="ics" />
+  <project path="device/moto/common" name="travp624/device_moto_common" remote="gh" revision="master" />
+  <project path="device/moto/stingray" name="travp624/device_moto_stingray" remote="gh" revision="master" />
+  <project path="device/moto/wingray" name="travp624/device_moto_wingray" remote="gh" revision="master" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/crespo" name="AOKP/device_samsung_crespo" remote="gh" revision="ics" />
-  <project path="device/samsung/crespo4g" name="peteralfonso/platform_device_samsung_crespo4g" remote="gh" revision="ics" />
-  <project path="device/samsung/maguro" name="AOKP/device_samsung_maguro" remote="gh" revision="master" />
+  <project path="device/samsung/crespo" name="travp624/device_samsung_crespo" remote="gh" revision="master" />
+  <project path="device/samsung/crespo4g" name="travp624/device_samsung_crespo4g" remote="gh" revision="master" />
+  <project path="device/samsung/maguro" name="travp624/device_samsung_maguro" remote="gh" revision="master" />
   <project path="device/samsung/p4" name="AOKP/device_samsung_p4" remote="gh" revision="ics" />
   <project path="device/samsung/p4-common" name="AOKP/device_samsung_p4-common" remote="gh" revision="ics" />
   <project path="device/samsung/p4vzw" name="AOKP/device_samsung_p4vzw" remote="gh" revision="ics" />
   <project path="device/samsung/p4wifi" name="AOKP/device_samsung_p4wifi" remote="gh" revision="ics" />
-  <project path="device/samsung/toro" name="AOKP/device_samsung_toro" remote="gh" revision="master" />
-  <project path="device/samsung/tuna" name="AOKP/device_samsung_tuna" remote="gh" revision="ics" />
+  <project path="device/samsung/toro" name="travp624/device_samsung_toro" remote="gh" revision="master" />
+  <project path="device/samsung/tuna" name="travp624/device_samsung_tuna" remote="gh" revision="master" />
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-mock" name="platform/external/android-mock" />
@@ -162,7 +170,7 @@
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <project path="external/webkit" name="platform/external/webkit" />
+  <project path="external/webkit" name="AOKP/external_webkit" remote="gh" revision="ics" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant" name="AOKP/external_wpa_supplicant" remote="gh" revision="master" />
@@ -171,17 +179,13 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="AOKP/external_yaffs2" remote="gh" revision="master" />
   <project path="external/zlib" name="AOKP/external_zlib" remote="gh" revision="master" />
-  <project path="frameworks/base" name="travp624/frameworks_base" remote="gh" revision="4.0.3" />
+  <project path="frameworks/base" name="travp624/frameworks_base" remote="gh" revision="master" />
+  <project path="frameworks/opt" name="travp624/frameworks_opt" remote="gh" revision="master" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" remote="gh" revision="ics" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" />
+  <project path="frameworks/ex" name="travp624/frameworks_ex" remote="gh" revision="master" />
   <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" />
-  <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
-  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
-  <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
-  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="hardware/cm" name="AOKP/hardware_cm" remote="gh" revision="ics" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
@@ -199,31 +203,33 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/Browser" name="AOKP/packages_apps_Browser" remote="gh" revision="ics" />
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="AOKP/packages_apps_Camera" remote="gh" revision="master" />
+  <project path="packages/apps/Browser" name="travp624/packages_apps_Browser" remote="gh" revision="master" />
+  <project path="packages/apps/Calculator" name="travp624/packages_apps_Calculator" remote="gh" revision="master" />
+  <project path="packages/apps/Calendar" name="travp624/packages_apps_Calendar" remote="gh" revision="master" />
+  <project path="packages/apps/Camera" name="travp624/packages_apps_Camera" remote="gh" revision="master" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="AOKP/packages_apps_Contacts" remote="gh" revision="ics" />
-  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" />
+  <project path="packages/apps/Contacts" name="travp624/packages_apps_Contacts" remote="gh" revision="master" />
+  <project path="packages/apps/DeskClock" name="AOKP/packages_apps_DeskClock" remote="gh" revision="master" />
+  <project path="packages/apps/DSPManager" name="travp624/packages_apps_DSPManager" remote="gh" revision="master" />
+  <project path="packages/apps/Email" name="travp624/packages_apps_Email" remote="gh" revision="master" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
+  <project path="packages/apps/FileManager" name="travp624/packages_apps_DSPManager" remote="gh" revision="master" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
+  <project path="packages/apps/Mms" name="travp624/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="AOKP/packages_apps_Phone" remote="gh" revision="master" />
+  <project path="packages/apps/Phone" name="travp624/packages_apps_Phone" remote="gh" revision="master" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="gh" revision="master" />
+  <project path="packages/apps/Settings" name="travp624/packages_apps_Settings" remote="gh" revision="master" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
@@ -237,8 +243,8 @@
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="AOKP/packages_providers_ContactsProvider" revision="master" remote="gh" />
-  <project path="packages/providers/DownloadProvider" name="AOKP/packages_providers_DownloadProvider" revision="ics" remote="gh" />
+  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
+  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
@@ -254,24 +260,24 @@
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="prebuilt" name="platform/prebuilt" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="AOKP/system_bluetooth" remote="gh" revision="master" />
+  <project path="system/bluetooth" name="travp624/system_bluetooth" remote="gh" revision="master" />
   <project path="system/core" name="AOKP/system_core" remote="gh" revision="ics" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="gh" revision="ics" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="AOKP/system_vold" remote="gh" revision="master" />
   
-  <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="gh" revision="master" />
-  <project path="vendor/imgtec" name="AOKP/vendor_imgtec" remote="gh" revision="master" />
-  <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="gh" revision="ics" />
-  <project path="vendor/moto" name="AOKP/vendor_moto" remote="gh" revision="ics" />
-  <project path="vendor/hp/tenderloin" name="AOKP/vendor_hp_tenderloin" remote="gh" revision="aokp" />
-  <project path="vendor/htc" name="AOKP/proprietary_vendor_htc" remote="gh" revision="ics" />
+  <project path="vendor/samsung" name="travp624/vendor_samsung" remote="gh" revision="master" />
+  <project path="vendor/imgtec" name="travp624/vendor_imgtec" remote="gh" revision="master" />
+  <project path="vendor/BlackICE" name="travp624/vendor_BlackICE" remote="gh" revision="master" />
+  <project path="vendor/moto" name="travp624/vendor_moto" remote="gh" revision="master" />
+  <project path="vendor/hp/tenderloin" name="travp624/vendor_hp_tenderloin" remote="gh" revision="master" />
+  <project path="vendor/htc" name="travp624/vendor_htc" remote="gh" revision="master" />
   
   <project path="external/busybox" name="CyanogenMod/android_external_busybox.git" remote="gh" revision="ics" />
   <project path="system/su" name="AOKP/android_system_su" remote="gh" revision="ics" />
-  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="ics" />
-  <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="gh" revision="master" />
-  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="gh" revision="ics" />
+  <project path="packages/apps/Superuser" name="travp624/packages_apps_Superuser" remote="gh" revision="master" />
+  <project path="packages/apps/BlackICEControl" name="travp624/packages_apps_BlackICEControl" remote="gh" revision="master" />
+  <project path="packages/apps/Trebuchet" name="travp624/packages_apps_Trebuchet" remote="gh" revision="master" />
 
 </manifest>
