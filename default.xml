@@ -12,7 +12,7 @@
            fetch="git://github.com/"
            revision="master" />
            
-  <remote  name="teamicemods"
+  <remote  name="travp624"
            fetch="git@github.com:travp624/"
            revision="master" />
            
