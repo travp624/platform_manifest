@@ -87,7 +87,7 @@
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/e2fsprogs" name="AOKP/external_e2fsprogs" remote="gh" revision="master" />
   <project path="external/easymock" name="platform/external/easymock" />
-  <project path="external/elfutils" name="AOKP/external_elfutils" remote="gh" revision="master" />
+  <project path="external/elfutils" name="AOKP/external_elfutils" remote="gh" revision="ics" />
   <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
