@@ -210,7 +210,7 @@
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="travp624/packages_apps_Contacts" remote="gh" revision="master" />
-  <project path="packages/apps/DeskClock" name="AOKP/packages_apps_DeskClock" remote="gh" revision="master" />
+  <project path="packages/apps/DeskClock" name="AOKP/packages_apps_DeskClock" remote="gh" revision="ics" />
   <project path="packages/apps/DSPManager" name="travp624/packages_apps_DSPManager" remote="gh" revision="master" />
   <project path="packages/apps/Email" name="travp624/packages_apps_Email" remote="gh" revision="master" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
