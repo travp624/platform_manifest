@@ -13,7 +13,7 @@
            revision="master" />
            
   <remote  name="travp624"
-           fetch="https://travp624@github.com/travp624/"
+           fetch="git@github.com:travp624/"
            revision="master" />
            
   <remote  name="kang"
