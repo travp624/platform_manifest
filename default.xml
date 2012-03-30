@@ -13,15 +13,15 @@
            revision="master" />
            
   <remote  name="travp624"
-           fetch="https://travp624@github.com:travp624/"
+           fetch="https://github.com/travp624/"
            revision="master" />
            
   <remote  name="kang"
-           fetch="https://AOKP@github.com/AOKP/"
+           fetch="https://github.com/AOKP/"
            revision="master" />
            
   <remote  name="cm"
-           fetch="http://github.com/CyanogenMod/"
+           fetch="https://github.com/CyanogenMod/"
            revision="ics" />
 
   <default revision="master"
