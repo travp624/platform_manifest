@@ -16,8 +16,8 @@
            fetch="git@github.com:travp624/"
            revision="master" />
            
-  <remote  name="AOKP"
-           fetch="git://github.com/AOKP/"
+  <remote  name="kang"
+           fetch="https://AOKP@github.com/AOKP/"
            revision="master" />
            
   <remote  name="cm"
