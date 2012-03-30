@@ -286,6 +286,5 @@
   <project path="packages/apps/BlackICEControl" name="travp624/packages_apps_BlackICEControl" remote="gh" revision="master" />
   <project path="packages/apps/Trebuchet" name="travp624/packages_apps_Trebuchet" remote="gh" revision="ics" />
   <project path="packages/apps/AppWidgetPicker" name="travp624/packages_apps_AppWidgetPicker" remote="gh" revision="master" />
-  <project path="packages/apps/GanOptimizer" name="CyanogenMod/android_packages_apps_GanOptimizer" remote="gh" revision="gb-release-7.2" />
 
 </manifest>
