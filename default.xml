@@ -57,6 +57,7 @@
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/crespo" name="travp624/device_samsung_crespo" remote="gh" revision="master" />
   <project path="device/samsung/crespo4g" name="travp624/device_samsung_crespo4g" remote="gh" revision="master" />
+  <project path="device/samsung/fascinatemtd" name="travp624/device_samsung_fascinatemtd" remote="gh" revision="master" />
   <project path="device/samsung/maguro" name="travp624/device_samsung_maguro" remote="gh" revision="master" />
   <project path="device/samsung/p4" name="AOKP/device_samsung_p4" remote="gh" revision="ics" />
   <project path="device/samsung/p4-common" name="AOKP/device_samsung_p4-common" remote="gh" revision="ics" />
