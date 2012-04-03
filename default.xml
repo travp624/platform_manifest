@@ -35,9 +35,9 @@
   <project path="bionic" name="AOKP/bionic" remote="gh" revision="ics" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" />
+  <project path="bootable/recovery" name="travp624/bootable_recovery" remote="gh" revision="master" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="platform/dalvik" />
+  <project path="dalvik" name="travp624/android_dalvik" remote="gh" revision="ics" />
   <project path="development" name="AOKP/platform_development" remote="gh" revision="ics-mr1-release" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
@@ -55,6 +55,7 @@
   <project path="device/moto/stingray" name="travp624/device_moto_stingray" remote="gh" revision="master" />
   <project path="device/moto/wingray" name="travp624/device_moto_wingray" remote="gh" revision="master" />
   <project path="device/sample" name="device/sample" />
+  <project path="device/samsung/aries-common" name="travp624/device_samsung_aries-common" remote="gh" revision="master" />
   <project path="device/samsung/crespo" name="travp624/device_samsung_crespo" remote="gh" revision="master" />
   <project path="device/samsung/crespo4g" name="travp624/device_samsung_crespo4g" remote="gh" revision="master" />
   <project path="device/samsung/fascinatemtd" name="travp624/device_samsung_fascinatemtd" remote="gh" revision="master" />
@@ -203,16 +204,16 @@
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="hardware/cm" name="AOKP/hardware_cm" remote="gh" revision="ics" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
+  <project path="hardware/broadcom/wlan" name="travp624/android_hardware_broadcom_wlan" remote="gh" revision="master" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware" name="AOKP/hardware_libhardware" remote="gh" revision="master" />
+  <project path="hardware/libhardware" name="travp624/android_hardware_libhardware" remote="gh" revision="ics" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="gh" revision="ics" />
   <project path="hardware/qcom/display" name="AOKP/android_hardware_qcom_display" remote="gh" revision="ics" />
   <project path="hardware/msm7k" name="AOKP/hardware_msm7k" remote="gh" revision="master" />
   <project path="hardware/qcom/gps" name="AOKP/hardware_qcom_gps" remote="gh" revision="master" />
   <project path="hardware/qcom/media" name="AOKP/hardware_qcom_media" remote="gh" revision="master" />
   <project path="hardware/ril" name="AOKP/android_hardware_ril" remote="gh" revision="ics" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
+  <project path="hardware/ti/omap3" name="travp624/android_hardware_ti_omap3" remote="gh" revision="master" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="hardware/ti/wlan" name="travp624/android_hardware_ti_wlan" remote="gh" revision="ics" />
   <project path="hardware/ti/wpan" name="travp624/android_hardware_ti_wpan" remote="gh" revision="ics" />
