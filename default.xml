@@ -201,7 +201,6 @@
   <project path="frameworks/ex" name="travp624/frameworks_ex" remote="gh" revision="master" />
   <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" />
   <project path="frameworks/opt" name="travp624/frameworks_opt" remote="gh" revision="master" />
-  <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="hardware/cm" name="AOKP/hardware_cm" remote="gh" revision="ics" />
   <project path="hardware/broadcom/wlan" name="travp624/android_hardware_broadcom_wlan" remote="gh" revision="master" />
