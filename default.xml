@@ -12,7 +12,7 @@
            fetch="http://github.com/"
            revision="master" />
            
-  <remote  name="travp624"
+  <remote  name="origin"
            fetch="git@github.com:travp624/"
            revision="master" />
            
@@ -37,7 +37,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="travp624/bootable_recovery" remote="gh" revision="master" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="travp624/android_dalvik" remote="gh" revision="ics" />
+  <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="AOKP/platform_development" remote="gh" revision="ics-mr1-release" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
