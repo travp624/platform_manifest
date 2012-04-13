@@ -288,18 +288,19 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="AOKP/system_vold" remote="gh" revision="master" />
-  
-  <project path="vendor/samsung" name="travp624/vendor_samsung" remote="gh" revision="master" />
+
   <project path="vendor/BlackICE" name="travp624/vendor_BlackICE" remote="gh" revision="master" />
+  <project path="vendor/hp/tenderloin" name="travp624/vendor_hp_tenderloin" remote="gh" revision="master" />
+  <project path="vendor/htc" name="travp624/vendor_htc" remote="gh" revision="master" />
   <project path="vendor/moto/droid2" name="travp624/vendor_moto_droid2" remote="gh" revision="master" />
   <project path="vendor/moto/shadow" name="travp624/vendor_moto_shadow" remote="gh" revision="master" />
   <project path="vendor/moto/sholes" name="travp624/vendor_moto_sholes" remote="gh" revision="master" />
   <project path="vendor/moto/spyder" name="travp624/vendor_moto_spyder" remote="gh" revision="master" />
   <project path="vendor/moto/stingray" name="travp624/vendor_moto_stingray" remote="gh" revision="master" />
   <project path="vendor/moto/wingray" name="travp624/vendor_moto_wingray" remote="gh" revision="master" />
-  <project path="vendor/hp/tenderloin" name="travp624/vendor_hp_tenderloin" remote="gh" revision="master" />
-  <project path="vendor/htc" name="travp624/vendor_htc" remote="gh" revision="master" />
-  
+  <project path="vendor/samsung" name="travp624/vendor_samsung" remote="gh" revision="master" />
+  <project path="vendor/verizon" name="travp624/vendor_verizon" remote="gh" revision="master" />
+
   <project path="external/busybox" name="CyanogenMod/android_external_busybox.git" remote="gh" revision="ics" />
   <project path="system/su" name="AOKP/android_system_su" remote="gh" revision="ics" />
   <project path="packages/apps/Superuser" name="travp624/packages_apps_Superuser" remote="gh" revision="master" />
