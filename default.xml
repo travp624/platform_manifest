@@ -1,31 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
+   <remote  name="aosp"
+            fetch="https://android.googlesource.com/" />
 
-  <remote  name="404"
-           revisions="refs/tags/android-4.0.4_r1.1"
-           fetch="https://android.googlesource.com/" />
-           
-  <remote  name="gh"
-           fetch="https://github.com/"
-           revision="master" />
-           
-  <remote  name="origin"
-           fetch="git@github.com:travp624/"
-           revision="master" />
-           
-  <remote  name="kang"
-           fetch="https://github.com/AOKP/"
-           revision="master" />
-           
-  <remote  name="cm"
-           fetch="https://github.com/CyanogenMod/"
-           revision="ics" />
+   <remote  name="gh"
+            fetch="https://github.com/"
+            revision="master" />
 
-  <default remote="aosp"
-           sync-j="4" />
+   <remote  name="origin"
+            fetch="git@github.com:travp624/"
+            revision="master" />
+
+   <remote  name="kang"
+            fetch="https://github.com/AOKP/"
+            revision="master" />
+
+   <remote  name="cm"
+            fetch="https://github.com/CyanogenMod/"
+            revision="ics" />
+
+   <default remote="aosp"
+            sync-j="4" />
 
   <project path="build" name="AOKP/android_build" revision="ics" remote="gh">
     <copyfile src="core/root.mk" dest="Makefile" />
