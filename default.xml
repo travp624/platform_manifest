@@ -267,7 +267,7 @@
   <project path="packages/providers/DownloadProvider" name="travp624/packages_providers_DownloadProvider" remote="gh" revision="master" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
-  <project path="packages/providers/MediaProvider" name="trap624/packages_providers_MediaProvider" remote="gh" revision="media" />
+  <project path="packages/providers/MediaProvider" name="trap624/packages_providers_MediaProvider" remote="gh" revision="master" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
