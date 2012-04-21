@@ -35,7 +35,7 @@
   <project path="bionic" name="AOKP/bionic" remote="gh" revision="ics" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="travp624/bootable_recovery" remote="gh" revision="master" />
+  <project path="bootable/recovery" name="travp624/android_bootable_recovery" remote="gh" revision="master" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="AOKP/platform_development" remote="gh" revision="ics-mr1-release" />
