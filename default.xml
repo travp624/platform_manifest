@@ -260,7 +260,7 @@
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="packages/providers/ContactsProvider" name="travp624/packages_providers_ContactsProvider" remote="gh" revision="master" />
   <project path="packages/providers/DownloadProvider" name="travp624/packages_providers_DownloadProvider" remote="gh" revision="master" />
-  <project path="packages/providers/DrmProvider" name="/packages/providers/DrmProvider" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
+  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="packages/providers/MediaProvider" name="travp624/packages_providers_MediaProvider" remote="gh" revision="master" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
