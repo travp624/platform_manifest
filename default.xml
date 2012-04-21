@@ -240,7 +240,7 @@
   <project path="packages/apps/Music" name="platform/packages/apps/Music" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
+  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="packages/apps/Phone" name="travp624/packages_apps_Phone" remote="gh" revision="master" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
