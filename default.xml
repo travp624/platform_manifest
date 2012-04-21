@@ -104,7 +104,7 @@
   <project path="external/fsck_msdos" name="AOKP/external_fsck_msdos" remote="gh" revision="master" />
   <project path="external/genext2fs" name="platform/external/genext2fs" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="external/giflib" name="platform/external/giflib" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
-  <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" remote="aosp" revision="refs/tags/android-4.0.4_r1.1"/>
+  <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="external/grub" name="platform/external/grub" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="external/gtest" name="AOKP/external_gtest" remote="gh" revision="master" />
   <project path="external/guava" name="platform/external/guava" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
@@ -143,7 +143,7 @@
   <project path="external/llvm" name="platform/external/llvm" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="external/markdown" name="platform/external/markdown" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
-  <project path="external/mesa3d" name="AOKP/external_mesa3d" remote="gh" revision="master"/>
+  <project path="external/mesa3d" name="AOKP/external_mesa3d" remote="gh" revision="master" />
   <project path="external/mksh" name="platform/external/mksh" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="external/mtpd" name="platform/external/mtpd" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
@@ -153,7 +153,7 @@
   <project path="external/nist-sip" name="platform/external/nist-sip" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="external/oauth" name="platform/external/oauth" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="external/opencv" name="platform/external/opencv" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
-  <project path="external/openssl" name="platform/external/openssl" remote="aosp" revision="refs/tags/android-4.0.4_r1.1"/>
+  <project path="external/openssl" name="platform/external/openssl" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" remote="gh" revision="ics"  />
   <project path="external/pcre" name="platform/external/pcre" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="external/ping" name="platform/external/ping" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
@@ -194,10 +194,10 @@
   <project path="external/zlib" name="AOKP/external_zlib" remote="gh" revision="master" />
   <project path="frameworks/base" name="travp624/frameworks_base" remote="gh" revision="master" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" remote="gh" revision="ics" />
-  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.0.4_r1.1"/>
+  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" remote="gh" revision="ics" />
   <project path="frameworks/ex" name="travp624/frameworks_ex" remote="gh" revision="master" />
-  <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" />
+  <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="frameworks/opt" name="travp624/frameworks_opt" remote="gh" revision="master" />
   <project path="frameworks/support" name="platform/frameworks/support" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="hardware/cm" name="AOKP/hardware_cm" remote="gh" revision="ics" />
@@ -236,7 +236,7 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
-  <project path="packages/apps/Mms" name="travp624/packages_apps_Mms" remote="gh" revision="master"/>
+  <project path="packages/apps/Mms" name="travp624/packages_apps_Mms" remote="gh" revision="master" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
@@ -257,10 +257,10 @@
   <project path="packages/experimental" name="platform/packages/experimental" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="packages/inputmethods" name="travp624/packages_inputmethods" remote="gh" revision="master" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
-  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
+  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="packages/providers/ContactsProvider" name="travp624/packages_providers_ContactsProvider" remote="gh" revision="master" />
   <project path="packages/providers/DownloadProvider" name="travp624/packages_providers_DownloadProvider" remote="gh" revision="master" />
-  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
+  <project path="packages/providers/DrmProvider" name="/packages/providers/DrmProvider" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="packages/providers/MediaProvider" name="travp624/packages_providers_MediaProvider" remote="gh" revision="master" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
