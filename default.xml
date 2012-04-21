@@ -2,6 +2,7 @@
 <manifest>
 
    <remote  name="aosp"
+            revision="refs/tags/android-4.0.4_r1.1"
             fetch="https://android.googlesource.com/" />
 
    <remote  name="gh"
