@@ -69,7 +69,6 @@
   <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="external/apache-http" name="platform/external/apache-http" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
-  <project path="external/apache-qp" name="platform/external/apache-qp" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="external/apache-xml" name="platform/external/apache-xml" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="external/astl" name="platform/external/astl" remote="aosp" revision="refs/tags/android-4.0.4_r1.1" />
   <project path="external/bash" name="travp624/external_bash" remote="gh" revision="master" />
