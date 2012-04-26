@@ -291,5 +291,6 @@
   <project path="packages/apps/Trebuchet" name="travp624/packages_apps_Trebuchet" remote="gh" revision="ics" />
   <project path="packages/apps/AppWidgetPicker" name="travp624/packages_apps_AppWidgetPicker" remote="gh" revision="master" />
   <project path="platform_manifest" name="travp624/platform_manifest" remote="gh" revision="master" />
+  <project path="vendor/BlackICE/buildbot" name="travp624/pseudo_buildbot" remote="gh" revision="master" />
 
 </manifest>
