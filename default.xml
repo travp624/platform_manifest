@@ -34,6 +34,7 @@
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="dalvik" name="platform/dalvik" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="development" name="AOKP/platform_development" remote="gh" revision="ics" />
+  <project path="device/amazon/otter" name="travp624/device_amazon_otter" remote="gh" revision="master" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
@@ -274,6 +275,7 @@
   <project path="system/media" name="platform/system/media" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="system/netd" name="platform/system/netd" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="system/vold" name="AOKP/system_vold" remote="gh" revision="master" />
+  <project path="vendor/amazon/otter" name="travp624/vendor_amazon_otter" remote="gh" revision="master" />
   <project path="vendor/BlackICE" name="travp624/vendor_BlackICE" remote="gh" revision="master" />
   <project path="vendor/hp/tenderloin" name="travp624/vendor_hp_tenderloin" remote="gh" revision="master" />
   <project path="vendor/htc" name="travp624/vendor_htc" remote="gh" revision="master" />
