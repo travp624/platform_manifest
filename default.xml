@@ -49,6 +49,7 @@
   <project path="device/moto/omap34com" name="travp624/device_moto_omap34com" remote="gh" revision="master" />
   <project path="device/moto/shadow" name="travp624/device_moto_shadow" remote="gh" revision="master" />
   <project path="device/moto/sholes" name="travp624/device_moto_sholes" remote="gh" revision="master" />
+  <project path="device/moto/spyder" name="travp624/device_moto_spyder" remote="gh" revision="master" />
   <project path="device/moto/stingray" name="travp624/device_moto_stingray" remote="gh" revision="master" />
   <project path="device/moto/wingray" name="travp624/device_moto_wingray" remote="gh" revision="master" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
