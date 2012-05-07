@@ -296,6 +296,10 @@
   <project path="vendor/moto/wingray" name="travp624/vendor_moto_wingray" remote="gh" revision="master" />
   <project path="vendor/samsung" name="travp624/vendor_samsung" remote="gh" revision="master" />
   <project path="vendor/verizon" name="travp624/vendor_verizon" remote="gh" revision="master" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="travp624/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="gh" revision="ics"/>
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="travp624/android_vendor_tmobile_libs_com.tmobile.themes" remote="gh" revision="ics" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="travp624/android_vendor_tmobile_providers_ThemeManager" remote="gh" revision="ics" />
+  <project path="vendor/tmobile/products/themes" name="travp624/android_vendor_tmobile_products_themes" remote="gh" revision="ics" />
 
   <project path="packages/apps/Superuser" name="travp624/packages_apps_Superuser" remote="gh" revision="master" />
   <project path="packages/apps/BlackICEControl" name="travp624/packages_apps_BlackICEControl" remote="gh" revision="master" />
