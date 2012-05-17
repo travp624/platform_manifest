@@ -294,6 +294,9 @@
   <project path="vendor/moto/spyder" name="travp624/vendor_moto_spyder" remote="gh" revision="master" />
   <project path="vendor/moto/stingray" name="travp624/vendor_moto_stingray" remote="gh" revision="master" />
   <project path="vendor/moto/wingray" name="travp624/vendor_moto_wingray" remote="gh" revision="master" />
+  <project path="vendor/qcom/opensource/omx/mm-core" name="travp624/android_vendor_qcom_opensource_omx_mm-core" remote="gh" revision="ics" />
+  <project path="vendor/qcom/opensource/omx/mm-video" name="travp624/android_vendor_qcom_opensource_omx_mm-video" remote="gh" revision="ics" />
+  <project path="vendor/qcom/opensource/kernel-tests/mm-audio" name="travp624/vendor_qcom_opensource_kernel-tests_mm-audio" remote="gh" revision="ics" />
   <project path="vendor/samsung" name="travp624/vendor_samsung" remote="gh" revision="master" />
   <project path="vendor/verizon" name="travp624/vendor_verizon" remote="gh" revision="master" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="travp624/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="gh" revision="ics"/>
@@ -304,6 +307,7 @@
   <project path="vendor/tmobile/themes/ICERed" name="travp624/vendor_tmobile_themes_ICERed" remote="gh" revision="master" />
   <project path="vendor/tmobile/themes/ICEOrange" name="travp624/vendor_tmobile_themes_ICEOrange" remote="gh" revision="master" />
   <project path="vendor/tmobile/themes/ICEGreen" name="travp624/vendor_tmobile_themes_ICEGreen" remote="gh" revision="master" />
+  <project path="vendor/tmobile/themes/ICEBlue" name="travp624/vendor_tmobile_themes_ICEBlue" remote="gh" revision="master" />
 
   <project path="packages/apps/Superuser" name="travp624/packages_apps_Superuser" remote="gh" revision="master" />
   <project path="packages/apps/BlackICEControl" name="travp624/packages_apps_BlackICEControl" remote="gh" revision="master" />
