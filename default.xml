@@ -285,7 +285,6 @@
   <project path="system/su" name="AOKP/android_system_su" remote="gh" revision="ics" />
   <project path="system/vold" name="AOKP/system_vold" remote="gh" revision="master" />
 
-  <project path="vendor/amazon/otter" name="travp624/vendor_amazon_otter" remote="gh" revision="master" />
   <project path="vendor/BlackICE" name="travp624/vendor_BlackICE" remote="gh" revision="master" />
   <project path="vendor/BlackICE/bot" name="travp624/pseudo_buildbot" remote="gh" revision="master" />
   <project path="vendor/hp/tenderloin" name="travp624/vendor_hp_tenderloin" remote="gh" revision="master" />
@@ -298,6 +297,7 @@
   <project path="vendor/moto/wingray" name="travp624/vendor_moto_wingray" remote="gh" revision="master" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="travp624/android_vendor_qcom_opensource_omx_mm-core" remote="gh" revision="ics" />
   <project path="vendor/qcom/opensource/omx/mm-video" name="travp624/android_vendor_qcom_opensource_omx_mm-video" remote="gh" revision="ics" />
+  <project path="vendor/qcom/opensource/v8" name="travp624/android_vendor_qcom_opensource_v8" remote="gh" revision="ics" />
   <project path="vendor/qcom/opensource/kernel-tests/mm-audio" name="travp624/vendor_qcom_opensource_kernel-tests_mm-audio" remote="gh" revision="ics" />
   <project path="vendor/samsung" name="travp624/vendor_samsung" remote="gh" revision="master" />
   <project path="vendor/verizon" name="travp624/vendor_verizon" remote="gh" revision="master" />
