@@ -256,7 +256,7 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="packages/experimental" name="platform/packages/experimental" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
-  <project path="packages/inputmethods" name="travp624/packages_inputmethods" remote="gh" revision="master" />
+  <project path="packages/inputmethods/LatinIME" name="travp624/packages_inputmethods_LatinIME" remote="gh" revision="master" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="packages/providers/ContactsProvider" name="travp624/packages_providers_ContactsProvider" remote="gh" revision="master" />
