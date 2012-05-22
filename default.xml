@@ -219,7 +219,6 @@
   <project path="kernel/moto/stingray" name="travp624/kernel_moto_stingray" remote="gh" revision="master" />
   <project path="libcore" name="platform/libcore" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
-  <project path="packages/apps/Apollo" name="travp624/packages_apps_Apollo" remote="gh" revision="master" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="packages/apps/Bluetooth" name="AOKP/packages_apps_Bluetooth" remote="gh" revision="ics" />
   <project path="packages/apps/Browser" name="travp624/packages_apps_Browser" remote="gh" revision="master" />
@@ -315,6 +314,7 @@
   <project path="packages/apps/BlackICEControl" name="travp624/packages_apps_BlackICEControl" remote="gh" revision="master" />
   <project path="packages/apps/Trebuchet" name="travp624/packages_apps_Trebuchet" remote="gh" revision="master" />
   <project path="packages/apps/AppWidgetPicker" name="travp624/packages_apps_AppWidgetPicker" remote="gh" revision="master" />
+  <project path="packages/apps/Apollo" name="travp624/packages_apps_Apollo" remote="gh" revision="master" />
 
   <project path="platform_manifest" name="travp624/platform_manifest" remote="gh" revision="master" />
 
