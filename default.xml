@@ -301,7 +301,6 @@
   <project path="vendor/qcom/opensource/v8" name="travp624/android_vendor_qcom_opensource_v8" remote="gh" revision="ics" />
   <project path="vendor/qcom/opensource/kernel-tests/mm-audio" name="travp624/vendor_qcom_opensource_kernel-tests_mm-audio" remote="gh" revision="ics" />
   <project path="vendor/samsung" name="travp624/vendor_samsung" remote="gh" revision="master" />
-  <project path="vendor/verizon" name="travp624/vendor_verizon" remote="gh" revision="master" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="travp624/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="gh" revision="ics"/>
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="travp624/android_vendor_tmobile_libs_com.tmobile.themes" remote="gh" revision="ics" />
   <project path="vendor/tmobile/providers/ThemeManager" name="travp624/android_vendor_tmobile_providers_ThemeManager" remote="gh" revision="ics" />
