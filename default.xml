@@ -42,7 +42,7 @@
   <project path="device/htc/common" name="travp624/device_htc_common" remote="gh" revision="gingerbread" />
   <project path="device/htc/inc" name="travp624/android_device_htc_inc" remote="gh" revision="ics" />
   <project path="device/htc/vivow" name="travp624/android_device_htc_vivow" remote="gh" revision="ics" />
-  <project path="device/htc/msm7x30-common" name="AOKP/android_device_htc_msm7x30-common" remote="gh" revision="ics" />
+  <project path="device/htc/msm7x30-common" name="travp624/android_device_htc_msm7x30-common" remote="gh" revision="ics" />
   <project path="device/htc/supersonic" name="travp624/android_device_htc_supersonic" remote="gh" revision="ics" />
   <project path="device/hp/tenderloin" name="travp624/device_hp_tenderloin" remote="gh" revision="master" />
   <project path="device/moto/common" name="travp624/device_moto_common" remote="gh" revision="master" />
@@ -57,6 +57,7 @@
   <project path="device/samsung/aries-common" name="travp624/device_samsung_aries-common" remote="gh" revision="master" />
   <project path="device/samsung/crespo" name="travp624/device_samsung_crespo" remote="gh" revision="master" />
   <project path="device/samsung/crespo4g" name="travp624/device_samsung_crespo4g" remote="gh" revision="master" />
+  <project path="device/samsung/espressowifi" name="travp624/device_samsung_espressowifi" remote="gh" revision="master" />
   <project path="device/samsung/fascinatemtd" name="travp624/device_samsung_fascinatemtd" remote="gh" revision="master" />
   <project path="device/samsung/maguro" name="travp624/device_samsung_maguro" remote="gh" revision="master" />
   <project path="device/samsung/p4" name="AOKP/device_samsung_p4" remote="gh" revision="ics" />
@@ -217,6 +218,7 @@
   <project path="hardware/ti/wlan" name="travp624/android_hardware_ti_wlan" remote="gh" revision="master" />
   <project path="hardware/ti/wpan" name="travp624/android_hardware_ti_wpan" remote="gh" revision="master" />
   <project path="kernel/hp/tenderloin" name="travp624/kernel_hp_tenderloin" remote="gh" revision="master" />
+  <project path="kernel/samsung/espressowifi" name="travp624/kernel_samsung_espressowifi" remote="gh" revision="master" />
   <project path="kernel/samsung/tuna" name="travp624/kernel_samsung_tuna" remote="gh" revision="master" />
   <project path="libcore" name="platform/libcore" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
@@ -300,6 +302,7 @@
   <project path="vendor/qcom/opensource/v8" name="travp624/android_vendor_qcom_opensource_v8" remote="gh" revision="ics" />
   <project path="vendor/qcom/opensource/kernel-tests/mm-audio" name="travp624/vendor_qcom_opensource_kernel-tests_mm-audio" remote="gh" revision="ics" />
   <project path="vendor/samsung" name="travp624/vendor_samsung" remote="gh" revision="master" />
+  <project path="vendor/samsung/espressowifi" name="travp624/vendor_samsung_espressowifi" remote="gh" revision="master" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="travp624/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="gh" revision="ics"/>
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="travp624/android_vendor_tmobile_libs_com.tmobile.themes" remote="gh" revision="ics" />
   <project path="vendor/tmobile/providers/ThemeManager" name="travp624/android_vendor_tmobile_providers_ThemeManager" remote="gh" revision="ics" />
