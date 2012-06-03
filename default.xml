@@ -309,6 +309,7 @@
   <project path="vendor/tmobile/themes/ICEOrange" name="travp624/vendor_tmobile_themes_ICEOrange" remote="gh" revision="master" />
   <project path="vendor/tmobile/themes/ICEGreen" name="travp624/vendor_tmobile_themes_ICEGreen" remote="gh" revision="master" />
   <project path="vendor/tmobile/themes/ICEBlue" name="travp624/vendor_tmobile_themes_ICEBlue" remote="gh" revision="master" />
+  <project path="vendor/tmobile/themes/ICEPurple" name="travp624/vendor_tmobile_themes_ICEPurple" remote="gh" revision="master" />
 
   <project path="packages/apps/Superuser" name="travp624/packages_apps_Superuser" remote="gh" revision="master" />
   <project path="packages/apps/BlackICEControl" name="travp624/packages_apps_BlackICEControl" remote="gh" revision="master" />
