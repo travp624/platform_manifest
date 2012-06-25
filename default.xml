@@ -307,6 +307,7 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="travp624/android_vendor_tmobile_providers_ThemeManager" remote="gh" revision="ics" />
   <project path="vendor/tmobile/products/themes" name="travp624/android_vendor_tmobile_products_themes" remote="gh" revision="ics" />
   <project path="vendor/tmobile/themes/Androidian" name="travp624/android_vendor_tmobile_themes_Androidian" remote="gh" revision="master" />
+  <project path="vendor/tmobile/themes/Achromatic" name="travp624/vendor_tmobile_themes_Achromatic" remote="gh" revision="master" />
   <project path="vendor/tmobile/themes/ICERed" name="travp624/vendor_tmobile_themes_ICERed" remote="gh" revision="master" />
   <project path="vendor/tmobile/themes/ICEOrange" name="travp624/vendor_tmobile_themes_ICEOrange" remote="gh" revision="master" />
   <project path="vendor/tmobile/themes/ICEGreen" name="travp624/vendor_tmobile_themes_ICEGreen" remote="gh" revision="master" />
