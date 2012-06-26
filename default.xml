@@ -40,6 +40,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/htc/common" name="travp624/device_htc_common" remote="gh" revision="gingerbread" />
+  <project path="device/htc/endeavoru" name="travp624/device_htc_endeavoru" remote="gh" revision="master" />
   <project path="device/htc/inc" name="travp624/android_device_htc_inc" remote="gh" revision="ics" />
   <project path="device/htc/vivow" name="travp624/android_device_htc_vivow" remote="gh" revision="ics" />
   <project path="device/htc/msm7x30-common" name="travp624/android_device_htc_msm7x30-common" remote="gh" revision="ics" />
@@ -288,6 +289,7 @@
   <project path="vendor/BlackICE/bot" name="travp624/pseudo_buildbot" remote="gh" revision="master" />
   <project path="vendor/hp/tenderloin" name="travp624/vendor_hp_tenderloin" remote="gh" revision="master" />
   <project path="vendor/htc" name="travp624/vendor_htc" remote="gh" revision="master" />
+  <project path="vendor/htc/endeavoru" name="travp624/vendor_htc_endeavoru" remote="gh" revision="master" />
   <project path="vendor/moto/droid2" name="travp624/vendor_moto_droid2" remote="gh" revision="master" />
   <project path="vendor/moto/shadow" name="travp624/vendor_moto_shadow" remote="gh" revision="master" />
   <project path="vendor/moto/sholes" name="travp624/vendor_moto_sholes" remote="gh" revision="master" />
