@@ -47,11 +47,6 @@
   <project path="device/htc/supersonic" name="travp624/android_device_htc_supersonic" remote="gh" revision="ics" />
   <project path="device/hp/tenderloin" name="travp624/device_hp_tenderloin" remote="gh" revision="master" />
   <project path="device/moto/common" name="travp624/device_moto_common" remote="gh" revision="master" />
-  <project path="device/moto/droid2" name="travp624/device_moto_droid2" remote="gh" revision="master" />
-  <project path="device/moto/omap34com" name="travp624/device_moto_omap34com" remote="gh" revision="master" />
-  <project path="device/moto/shadow" name="travp624/device_moto_shadow" remote="gh" revision="master" />
-  <project path="device/moto/sholes" name="travp624/device_moto_sholes" remote="gh" revision="master" />
-  <project path="device/moto/spyder" name="travp624/device_moto_spyder" remote="gh" revision="master" />
   <project path="device/moto/stingray" name="travp624/device_moto_stingray" remote="gh" revision="master" />
   <project path="device/moto/wingray" name="travp624/device_moto_wingray" remote="gh" revision="master" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
@@ -290,10 +285,6 @@
   <project path="vendor/hp/tenderloin" name="travp624/vendor_hp_tenderloin" remote="gh" revision="master" />
   <project path="vendor/htc" name="travp624/vendor_htc" remote="gh" revision="master" />
   <project path="vendor/htc/endeavoru" name="travp624/vendor_htc_endeavoru" remote="gh" revision="master" />
-  <project path="vendor/moto/droid2" name="travp624/vendor_moto_droid2" remote="gh" revision="master" />
-  <project path="vendor/moto/shadow" name="travp624/vendor_moto_shadow" remote="gh" revision="master" />
-  <project path="vendor/moto/sholes" name="travp624/vendor_moto_sholes" remote="gh" revision="master" />
-  <project path="vendor/moto/spyder" name="travp624/vendor_moto_spyder" remote="gh" revision="master" />
   <project path="vendor/moto/stingray" name="travp624/vendor_moto_stingray" remote="gh" revision="master" />
   <project path="vendor/moto/wingray" name="travp624/vendor_moto_wingray" remote="gh" revision="master" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="travp624/android_vendor_qcom_opensource_omx_mm-core" remote="gh" revision="ics" />
