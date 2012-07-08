@@ -287,7 +287,7 @@
   <project path="system/su" name="AOKP/android_system_su" remote="gh" revision="ics" />
   <project path="system/vold" name="AOKP/system_vold" remote="gh" revision="master" />
 
-  <project path="vendor/BlackICE" name="travp624/vendor_BlackICE" remote="gh" revision="master" />
+  <project path="vendor/BlackICE" name="travp624/vendor_BlackICE" remote="gh" revision="ics" />
   <project path="vendor/BlackICE/bot" name="travp624/pseudo_buildbot" remote="gh" revision="master" />
   <project path="vendor/hp/tenderloin" name="travp624/vendor_hp_tenderloin" remote="gh" revision="master" />
   <project path="vendor/htc" name="travp624/vendor_htc" remote="gh" revision="ics" />
