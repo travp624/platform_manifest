@@ -39,10 +39,9 @@
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
-  <project path="device/htc/common" name="travp624/device_htc_common" remote="gh" revision="gingerbread" />
-  <project path="device/htc/endeavoru" name="travp624/device_htc_endeavoru" remote="gh" revision="master" />
-  <project path="device/htc/inc" name="travp624/android_device_htc_inc" remote="gh" revision="ics" />
-  <project path="device/htc/vivow" name="travp624/android_device_htc_vivow" remote="gh" revision="ics" />
+  <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" remote="gh" revision="gingerbread" />
+  <project path="device/htc/endeavoru" name="travp624/device_htc_endeavoru" remote="gh" revision="ics" />
+  <project path="device/htc/vivow" name="travp624/device_htc_vivow" remote="gh" revision="ics" />
   <project path="device/htc/msm7x30-common" name="travp624/android_device_htc_msm7x30-common" remote="gh" revision="ics" />
   <project path="device/htc/supersonic" name="travp624/android_device_htc_supersonic" remote="gh" revision="ics" />
   <project path="device/hp/tenderloin" name="travp624/device_hp_tenderloin" remote="gh" revision="master" />
@@ -56,10 +55,12 @@
   <project path="device/samsung/espressowifi" name="travp624/device_samsung_espressowifi" remote="gh" revision="master" />
   <project path="device/samsung/fascinatemtd" name="travp624/device_samsung_fascinatemtd" remote="gh" revision="master" />
   <project path="device/samsung/maguro" name="travp624/device_samsung_maguro" remote="gh" revision="master" />
-  <project path="device/samsung/p4" name="AOKP/device_samsung_p4" remote="gh" revision="ics" />
-  <project path="device/samsung/p4-common" name="AOKP/device_samsung_p4-common" remote="gh" revision="ics" />
-  <project path="device/samsung/p4vzw" name="AOKP/device_samsung_p4vzw" remote="gh" revision="ics" />
-  <project path="device/samsung/p4wifi" name="AOKP/device_samsung_p4wifi" remote="gh" revision="ics" />
+  <project path="device/samsung/p4" name="travp624/device_samsung_p4" remote="gh" revision="ics" />
+  <project path="device/samsung/p4-common" name="travp624/device_samsung_p4-common" remote="gh" revision="ics" />
+  <project path="device/samsung/p4vzw" name="travp624/device_samsung_p4vzw" remote="gh" revision="ics" />
+  <project path="device/samsung/p4wifi" name="travp624/device_samsung_p4wifi" remote="gh" revision="ics" />
+  <project path="device/samsung/showcasemtd" name="travp624/device_samsung_showcasemtd" remote="gh" revision="ics" />
+  <project path="device/samsung/vibrantmtd" name="travp624/device_samsung_vibrantmtd" remote="gh" revision="ics" />
   <project path="device/samsung/toro" name="travp624/device_samsung_toro" remote="gh" revision="master" />
   <project path="device/samsung/toroplus" name="travp624/device_samsung_toroplus" remote="gh" revision="master" />
   <project path="device/samsung/tuna" name="travp624/device_samsung_tuna" remote="gh" revision="master" />
@@ -283,8 +284,7 @@
   <project path="vendor/BlackICE" name="travp624/vendor_BlackICE" remote="gh" revision="master" />
   <project path="vendor/BlackICE/bot" name="travp624/pseudo_buildbot" remote="gh" revision="master" />
   <project path="vendor/hp/tenderloin" name="travp624/vendor_hp_tenderloin" remote="gh" revision="master" />
-  <project path="vendor/htc" name="travp624/vendor_htc" remote="gh" revision="master" />
-  <project path="vendor/htc/endeavoru" name="travp624/vendor_htc_endeavoru" remote="gh" revision="master" />
+  <project path="vendor/htc" name="travp624/vendor_htc" remote="gh" revision="ics" />
   <project path="vendor/moto/stingray" name="travp624/vendor_moto_stingray" remote="gh" revision="master" />
   <project path="vendor/moto/wingray" name="travp624/vendor_moto_wingray" remote="gh" revision="master" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="travp624/android_vendor_qcom_opensource_omx_mm-core" remote="gh" revision="ics" />
