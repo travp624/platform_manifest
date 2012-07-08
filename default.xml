@@ -60,6 +60,7 @@
   <project path="device/samsung/p4vzw" name="travp624/device_samsung_p4vzw" remote="gh" revision="ics" />
   <project path="device/samsung/p4wifi" name="travp624/device_samsung_p4wifi" remote="gh" revision="ics" />
   <project path="device/samsung/showcasemtd" name="travp624/device_samsung_showcasemtd" remote="gh" revision="ics" />
+  <project path="device/samsung/skyrocket" name="travp624/device_samsung_skyrocket" remote="gh" revision="ics" />
   <project path="device/samsung/vibrantmtd" name="travp624/device_samsung_vibrantmtd" remote="gh" revision="ics" />
   <project path="device/samsung/toro" name="travp624/device_samsung_toro" remote="gh" revision="ics" />
   <project path="device/samsung/toroplus" name="travp624/device_samsung_toroplus" remote="gh" revision="ics" />
