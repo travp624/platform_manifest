@@ -23,18 +23,18 @@
    <default remote="aosp"
             sync-j="4" />
 
-  <project path="build" name="travp624/android_build" remote="gh" revision="master">
+  <project path="build" name="travp624/android_build" remote="gh" revision="ics">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="bionic" name="AOKP/bionic" remote="gh" revision="ics" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
-  <project path="bootable/recovery" name="travp624/android_bootable_recovery" remote="gh" revision="master" />
+  <project path="bootable/recovery" name="travp624/android_bootable_recovery" remote="gh" revision="ics" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="dalvik" name="travp624/platform_dalvik" remote="gh" revision="ics" />
   <project path="development" name="AOKP/platform_development" remote="gh" revision="ics" />
-  <project path="device/amazon/otter" name="travp624/device_amazon_otter" remote="gh" revision="master" />
+  <project path="device/amazon/otter" name="travp624/device_amazon_otter" remote="gh" revision="ics" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
@@ -45,10 +45,10 @@
   <project path="device/htc/vivow" name="travp624/device_htc_vivow" remote="gh" revision="ics" />
   <project path="device/htc/msm7x30-common" name="travp624/device_htc_msm7x30-common" remote="gh" revision="ics" />
   <project path="device/htc/supersonic" name="travp624/device_htc_supersonic" remote="gh" revision="ics" />
-  <project path="device/hp/tenderloin" name="travp624/device_hp_tenderloin" remote="gh" revision="master" />
-  <project path="device/moto/common" name="travp624/device_moto_common" remote="gh" revision="master" />
-  <project path="device/moto/stingray" name="travp624/device_moto_stingray" remote="gh" revision="master" />
-  <project path="device/moto/wingray" name="travp624/device_moto_wingray" remote="gh" revision="master" />
+  <project path="device/hp/tenderloin" name="travp624/device_hp_tenderloin" remote="gh" revision="ics" />
+  <project path="device/moto/common" name="travp624/device_moto_common" remote="gh" revision="ics" />
+  <project path="device/moto/stingray" name="travp624/device_moto_stingray" remote="gh" revision="ics" />
+  <project path="device/moto/wingray" name="travp624/device_moto_wingray" remote="gh" revision="ics" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/samsung/aries-common" name="travp624/device_samsung_aries-common" remote="gh" revision="ics" />
   <project path="device/samsung/captivatemtd" name="travp624/device_samsung_captivatemtd" remote="gh" revision="ics" />
@@ -194,7 +194,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/yaffs2" name="AOKP/external_yaffs2" remote="gh" revision="ics" />
   <project path="external/zlib" name="AOKP/external_zlib" remote="gh" revision="ics" />
-  <project path="frameworks/base" name="travp624/frameworks_base" remote="gh" revision="master" />
+  <project path="frameworks/base" name="travp624/frameworks_base" remote="gh" revision="ics" />
   <project path="frameworks/compile/libbcc" name="AOKP/android_frameworks_compile_libbcc" remote="gh" revision="ics" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" remote="gh" revision="ics" />
@@ -227,7 +227,7 @@
   <project path="packages/apps/Browser" name="travp624/packages_apps_Browser" remote="gh" revision="master" />
   <project path="packages/apps/Calculator" name="travp624/packages_apps_Calculator" remote="gh" revision="master" />
   <project path="packages/apps/Calendar" name="travp624/packages_apps_Calendar" remote="gh" revision="master" />
-  <project path="packages/apps/Camera" name="travp624/packages_apps_Camera" remote="gh" revision="master" />
+  <project path="packages/apps/Camera" name="travp624/packages_apps_Camera" remote="gh" revision="ics" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="packages/apps/Contacts" name="travp624/packages_apps_Contacts" remote="gh" revision="master" />
