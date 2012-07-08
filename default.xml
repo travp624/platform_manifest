@@ -23,7 +23,7 @@
    <default remote="aosp"
             sync-j="4" />
 
-  <project path="build" name="travp624/android_build" remote="gh" revision="ics">
+  <project path="build" name="travp624/build" remote="gh" revision="ics">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
