@@ -51,6 +51,7 @@
   <project path="device/moto/wingray" name="travp624/device_moto_wingray" remote="gh" revision="master" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/samsung/aries-common" name="travp624/device_samsung_aries-common" remote="gh" revision="ics" />
+  <project path="device/samsung/captivatemtd" name="travp624/device_samsung_captivatemtd" remote="gh" revision="ics" />
   <project path="device/samsung/crespo" name="travp624/device_samsung_crespo" remote="gh" revision="master" />
   <project path="device/samsung/crespo4g" name="travp624/device_samsung_crespo4g" remote="gh" revision="ics" />
   <project path="device/samsung/espressowifi" name="travp624/device_samsung_espressowifi" remote="gh" revision="ics" />
